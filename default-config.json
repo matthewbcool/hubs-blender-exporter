@@ -499,6 +499,18 @@
           "default": 1.0
         }
       }
+    },
+    "media-frame": {
+      "category": "Elements",
+      "node": true,
+      "properties": {
+      "bounds": { "type": "vec3", "default": {"x": 1, "y": 1, "z": 1} },
+      "mediaType": { "type": "string", "default": "ALL" },
+      "snapToCenter": { "type": "bool", "default": true },
+      "debug": { "type": "bool", "default": false },
+      "targetId": { "type": "string", "default": "empty" },
+      "originalTargetScale": {"type": "vec3", "default": {"x": 1, "y": 1, "z": 1} }
+      }
     }
   }
 }
